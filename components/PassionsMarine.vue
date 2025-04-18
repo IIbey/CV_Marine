@@ -102,7 +102,7 @@
 }
 
 .passion-desc {
-  color: #d1d5db;
+  color: #e5e7eb;
   line-height: 1.5;
 }
 
