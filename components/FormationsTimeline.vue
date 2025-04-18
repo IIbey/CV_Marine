@@ -1,15 +1,15 @@
 <template>
 <div class="bg-gradient-to-r from-[#ff73875e] via-[#fb7185a6] to-[#ff73875e] pb-16">
     <div class="w-full flex justify-center items-center ">
-      <h2 class="text-3xl font-bold m-4 text-white mb-16 mt-16 uppercase drop-shadow-lg">Un regard sur mon parcours
+      <h2 class="text-3xl font-bold m-4 text-center text-white mb-16 mt-16 uppercase drop-shadow-lg">Un regard sur mon parcours
           <span href="" target="_blank"
               class="bg-gradient-to-r from-rose-400 via-[#f5b2bc] to-[#FF7387] bg-[length:100%_4px] bg-no-repeat bg-bottom">
               formateur</span> !
       </h2>
     </div>
-    <div class="flex justify-around">
-<ol class="items-center sm:flex">
-    <li class="relative mb-6 sm:mb-0">
+    <div class="timeline-container">
+<ol class="formation-timeline">
+    <li class="timeline-item">
         <div class="flex items-center">
             <div class="z-10 flex items-center justify-center w-9 h-9 bg-[#181818] rounded-full ring-0 ring-[#181818] shrink-0">
                 <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -24,7 +24,7 @@
             <p class="text-base font-normal text-[#181818]"><b>BAC PRO.</b> - Production Graphique.</p>
         </div>
     </li>
-    <li class="relative mb-6 sm:mb-0">
+    <li class="timeline-item">
         <div class="flex items-center">
             <div class="z-10 flex items-center justify-center w-9 h-9 bg-[#181818] rounded-full ring-0 ring-[#181818] shrink-0">
                 <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -39,7 +39,7 @@
             <p class="text-base font-normal text-[#181818]"><b>LICENCE</b> - Art du spectacle : Cinéma.</p>
         </div>
     </li>
-    <li class="relative mb-6 sm:mb-0">
+    <li class="timeline-item">
         <div class="flex items-center">
             <div class="z-10 flex items-center justify-center w-9 h-9 bg-[#181818] rounded-full ring-0 ring-white shrink-0">
                 <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -54,7 +54,7 @@
             <p class="text-base font-normal text-[#181818]"><b>LICENCE</b> - Web Marketing</p>
         </div>
     </li>
-    <li class="relative mb-6 sm:mb-0">
+    <li class="timeline-item">
         <div class="flex items-center">
             <div class="z-10 flex items-center justify-center w-9 h-9 bg-[#181818] rounded-full ring-0 ring-white shrink-0">
                 <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -69,7 +69,7 @@
             <p class="text-base font-normal text-[#181818]"><b>LICENCE</b> - Community Manager</p>
         </div>
     </li>
-    <li class="relative mb-6 sm:mb-0">
+    <li class="timeline-item">
         <div class="flex items-center">
             <div class="z-10 flex items-center justify-center w-9 h-9 bg-[#181818] rounded-full ring-0 ring-white shrink-0">
                 <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -87,4 +87,78 @@
 </ol>
 </div>
 </div>
+
+<style scoped>
+.timeline-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.formation-timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 0;
+}
+
+/* Media queries pour la responsivité */
+@media (max-width: 1200px) {
+  .formation-timeline {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .formation-timeline {
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    justify-content: flex-start;
+  }
+  
+  .timeline-item {
+    min-width: 200px;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .formation-timeline {
+    flex-direction: column;
+  }
+  
+  .timeline-item {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-right: 0;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  .timeline-item {
+    margin-bottom: 1.5rem;
+  }
+}
+</style>
 </template>

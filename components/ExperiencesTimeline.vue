@@ -9,19 +9,62 @@
       </div>
     </div>
 
-        <div class="w-full flex justify-center items-center ">
+    <div class="w-full flex justify-center items-center">
       <h2 class="text-3xl font-bold m-4 text-white mb-16 mt-16 uppercase">À la découverte de mes 
           <span href="" target="_blank"
               class="bg-gradient-to-r from-rose-400 via-[#f5b2bc] to-[#FF7387] bg-[length:100%_4px] bg-no-repeat bg-bottom">
               aventures</span> professionnelles !
       </h2>
-</div>
+    </div>
     <!-- component -->
-<section class="relative min-h-screen flex flex-col justify-center overflow-hidden">
-    <div class="w-full">
-        <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
+    <section class="relative min-h-screen flex flex-col justify-center overflow-hidden">
+        <div class="w-full">
+            <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
 
 
+                <div class="w-full max-w-3xl mx-auto">
+                
+                    <!-- Vertical Timeline #2 -->
+                    <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+
+                        <!-- Item #1 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-[#a54654] text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
+                            <div class="timeline-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1F1F1F] p-6 rounded border-solid border border-[#38393b] shadow transition duration-300 ease-in-out hover:border-[#FF7387] hover:shadow-md hover:shadow-[#ff73875e]">
+                                <div>
+                                <div class="flex items-center justify-between space-x-2 mb-1">
+                                    <div class="font-bold text-white tracking-wide uppercase">Clem Prevention</div>
+                                    <time class="text-xs font-medium text-white">Stage</time>
+                                </div>
+                                <p class="text-[#FF7387] text-sm mb-2">Développeuse ⸻</p>
+                                <div class="text-gray-500 text-sm">Développement de sites web sur <b class="text-[#FF7387]">WordPress</b> pour un fabricant de matériel médical.</div>
+                            </div>
+                            <div class="flex mt-4 flex-wrap">
+                            <!-- Photoshop -->
+                            <svg class="mr-2 skill-icon size-10 rounded-full ring-2 ring-[#fff0]"  fill="#37ABFF" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 512.00 512.00" enable-background="new 0 0 512 512" xml:space="preserve" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#37ABFF"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="7.168000000000001"></g><g id="SVGRepo_iconCarrier"> <g id="2069a460dcf28295e231f3111e037552"> <path display="inline" d="M426.333,0.5H85.667C38.825,0.5,0.5,38.825,0.5,85.667v340.667c0,46.842,38.325,85.167,85.167,85.167 h340.667c46.842,0,85.167-38.325,85.167-85.167V85.667C511.5,38.825,473.175,0.5,426.333,0.5z M245.329,260.524 c-17.736,17.736-45.611,26.065-77.103,26.065c-8.326,0-15.927-0.365-21.72-1.451v91.945h-44.159V136.363 c15.927-2.895,38.009-5.069,68.05-5.069c32.582,0,56.473,6.878,72.039,19.911c14.48,11.947,23.89,31.131,23.89,53.936 C266.325,228.309,259.086,247.492,245.329,260.524z M337.981,380.706c-21.358,0-40.542-5.069-53.574-12.31l8.687-32.216 c10.135,6.154,29.322,12.671,45.249,12.671c19.545,0,28.236-7.964,28.236-19.549c0-11.943-7.239-18.099-28.96-25.7 c-34.391-11.947-48.866-30.769-48.505-51.403c0-31.131,25.7-55.383,66.604-55.383c19.549,0,36.562,5.069,46.695,10.496 l-8.687,31.493c-7.602-4.342-21.721-10.135-37.285-10.135c-15.928,0-24.615,7.602-24.615,18.46c0,11.224,8.326,16.655,30.77,24.618 c31.854,11.582,46.696,27.871,47.058,53.937C409.653,357.539,384.678,380.706,337.981,380.706z M221.8,206.95 c0,28.598-20.273,44.887-53.574,44.887c-9.049,0-16.289-0.362-21.72-1.809v-82.534c4.708-1.085,13.395-2.171,25.704-2.171 C202.979,165.323,221.8,179.803,221.8,206.95z"></path></g></g></svg>
+                            <!-- Figma -->
+                            <svg class="mr-2 skill-icon size-10 rounded-full ring-2 ring-[#fff0]" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"></path> </g></svg>
+                            <!-- WordPress-->
+                            <svg class="mr-2 skill-icon size-10 rounded-full ring-2 ring-[#fff0]"  width="64px" height="64px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Wordpress-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-400.000000, -760.000000)" fill="#00759D"> <path d="M400,783.99925 C400,793.499047 405.520173,801.708803 413.525923,805.598425 L402.077565,774.232445 C400.747023,777.216038 400,780.519141 400,783.99925 Z M440.201556,782.788712 C440.201556,779.821619 439.135023,777.768055 438.222994,776.170505 C437.006456,774.191943 435.864921,772.517891 435.864921,770.540829 C435.864921,768.33426 437.537473,766.280696 439.895547,766.280696 C440.00205,766.280696 440.102553,766.294197 440.206056,766.300197 C435.936923,762.388075 430.247245,760 423.99955,760 C415.614288,760 408.238557,764.302134 403.946923,770.816838 C404.510941,770.834839 405.041958,770.845339 405.491972,770.845339 C408.00155,770.845339 411.888172,770.540829 411.888172,770.540829 C413.181212,770.464327 413.334217,772.366386 412.041176,772.517891 C412.041176,772.517891 410.740636,772.670896 409.29459,772.747398 L418.033864,798.743211 L423.287028,782.991218 L419.548911,772.747398 C418.25587,772.670896 417.030332,772.517891 417.030332,772.517891 C415.737292,772.441389 415.888797,770.464327 417.183337,770.540829 C417.183337,770.540829 421.146461,770.845339 423.504535,770.845339 C426.014113,770.845339 429.900734,770.540829 429.900734,770.540829 C431.195275,770.464327 431.34678,772.366386 430.053739,772.517891 C430.053739,772.517891 428.751698,772.670896 427.307153,772.747398 L435.980424,798.545205 L438.375999,790.546955 C439.411032,787.225851 440.201556,784.842276 440.201556,782.788712 Z M445.059908,772.48534 C445.163411,773.250364 445.221913,774.06939 445.221913,774.952917 C445.221913,777.387493 444.765899,780.125079 443.396356,783.549686 L436.065627,804.743848 C443.20135,800.584218 448,792.852977 448,783.9997 C448,779.82657 446.933467,775.903947 445.059908,772.48534 Z M424.421063,786.098716 L417.219338,807.022869 C419.370405,807.655889 421.644476,808.0009 423.99955,808.0009 C426.794137,808.0009 429.474721,807.517885 431.969299,806.640358 C431.906297,806.536854 431.846295,806.428851 431.798294,806.310347 L424.421063,786.098716 Z" id="Wordpress"> </path> </g> </g> </g></svg>
+                            </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Item #2 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-[#a54654] text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
             <div class="w-full max-w-3xl mx-auto">
             
                 <!-- Vertical Timeline #2 -->
