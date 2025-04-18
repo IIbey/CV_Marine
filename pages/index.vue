@@ -138,6 +138,7 @@
     }
     .mx-80 {
         margin: 0;
+        padding: 0 1.5rem;
     }
     .text-3xl {
         font-size: 1.5rem;
@@ -151,6 +152,16 @@
     
     .social-icon-container {
         margin: 0 0.5rem;
+    }
+    
+    /* Ajout de padding pour les sections texte */
+    #paragraphe-bio {
+        padding: 0 1.5rem;
+    }
+    
+    /* Assurer que les titres ont assez d'espace */
+    h2 {
+        padding: 0 1rem;
     }
 }
 
