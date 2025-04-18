@@ -165,18 +165,18 @@
     }
 }
 
-.typewrite {
-    color: #FF7387;
-    font-weight: bold;
-}
-.typewrite::after {
-    content: '|';
-    animation: blink 0.7s infinite;
-}
-@keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
+  .typewrite {
+      color: #FF7387;
+      font-weight: bold;
+  }
+  .typewrite::after {
+      content: '|';
+      animation: blink 0.7s infinite;
+  }
+  @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+  }
 
 /* Styles pour les icônes sociales */
 .social-container {
