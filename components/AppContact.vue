@@ -11,15 +11,19 @@
   class="mx-auto relative overflow-hidden z-10 bg-[#1f1f1f] p-8 rounded-lg border-solid border border-[#38393b] shadow transition duration-300 ease-in-out hover:border-[#FF7387] hover:shadow-md hover:shadow-[#ff73875e]"
 >
 
-  <form method="post" action="#">n
+  <form @submit.prevent="handleSubmit">
     <div class="mb-4">
       <label class="block text-sm font-medium text-gray-300" for="name"
         >Votre nom</label
       >
       <input
+        v-model="name"
         class="mt-1 p-2 w-full bg-[#181818] border border-[#313131] rounded-md text-white"
         type="text"
+        name="name"
+        id="name"
       />
+      <span v-if="errors.name" class="text-red-500 text-xs">{{ errors.name }}</span>
     </div>
 
     <div class="mb-4">
@@ -27,11 +31,13 @@
         >Votre adresse e-mail</label
       >
       <input
+        v-model="email"
         class="mt-1 p-2 w-full bg-[#181818] border border-[#313131] rounded-md text-white"
         name="email"
         id="email"
         type="email"
       />
+      <span v-if="errors.email" class="text-red-500 text-xs">{{ errors.email }}</span>
     </div>
 
     <div class="mb-4">
@@ -39,11 +45,13 @@
         >Votre Message</label
       >
       <textarea
+        v-model="message"
         class="mt-1 p-2 w-full bg-[#181818] border border-[#313131] rounded-md text-white"
         rows="3"
         name="message"
         id="message"
       ></textarea>
+      <span v-if="errors.message" class="text-red-500 text-xs">{{ errors.message }}</span>
     </div>
 
     <div class="flex justify-end">
@@ -55,9 +63,44 @@
       </button>
     </div>
   </form>
+  <div v-if="successMessage" class="mt-4 text-green-500">{{ successMessage }}</div>
 </div>
 </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: '',
+      email: '',
+      message: '',
+      errors: {},
+      successMessage: ''
+    };
+  },
+  methods: {
+    handleSubmit() {
+      this.errors = {};
+      if (!this.name) this.errors.name = 'Le nom est requis.';
+      if (!this.email) this.errors.email = 'L\'adresse e-mail est requise.';
+      else if (!this.validEmail(this.email)) this.errors.email = 'L\'adresse e-mail n\'est pas valide.';
+      if (!this.message) this.errors.message = 'Le message est requis.';
+
+      if (Object.keys(this.errors).length === 0) {
+        this.successMessage = 'Votre message a été envoyé avec succès !';
+        this.name = '';
+        this.email = '';
+        this.message = '';
+      }
+    },
+    validEmail(email) {
+      const re = /^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\\.,;:\s@\"]+\.)+[^<>()[\]\\.,;:\s@\"]{2,})$/i;
+      return re.test(email);
+    }
+  }
+};
+</script>
 
 <style scoped>
 #background-contact {
