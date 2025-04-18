@@ -193,18 +193,18 @@
 }
 
 .timeline-node {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #1F1F1F;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
-  border: 2px solid #38393b;
-  box-shadow: 0 0 15px rgba(255, 115, 135, 0.3);
-  transition: all 0.3s ease-in-out;
-  z-index: 20;
+    background-color: #1f1f1f;
+    border: 2px solid #38393b;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #ff73874d;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+    width: 60px;
+    z-index: 20;
 }
 
 .timeline-node:hover {

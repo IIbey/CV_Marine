@@ -10,7 +10,7 @@
     </div>
 
     <div class="w-full flex justify-center items-center">
-      <h2 class="text-4xl font-bold m-4 text-white mb-8 mt-16 text-center">
+      <h2 class="text-4xl font-bold m-4 text-white mb-4 mt-16 text-center">
         À la découverte de mes 
         <span class="bg-gradient-to-r from-rose-400 to-[#FF7387] bg-clip-text text-transparent">
           aventures professionnelles
