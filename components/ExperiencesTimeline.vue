@@ -198,4 +198,32 @@
     transform: translateY(-400px);
   }
 }
+
+/* Améliorations de design */
+.timeline-card {
+  background-color: #1A1A1A;
+  border-color: #FF7387;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 115, 135, 0.5);
+}
+
+.timeline-card .text-gray-300 {
+  color: #e5e7eb;
+}
+
+.timeline-card .font-bold {
+  color: #FF7387;
+}
+
+.timeline-card .text-sm {
+  color: #d1d5db;
+}
+
+.timeline-card .text-xs {
+  color: #9ca3af;
+}
 </style>
