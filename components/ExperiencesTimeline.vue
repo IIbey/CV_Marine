@@ -19,7 +19,7 @@
       </h2>
     </div>
     
-    <section class="relative min-h-screen flex flex-col justify-center overflow-hidden">
+    <section class="relative min-h-[80vh] flex flex-col justify-center overflow-hidden">
       <div class="w-full max-w-4xl mx-auto px-4">
         <!-- Timeline verticale -->
         <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-[#FF7387] before:to-transparent">
