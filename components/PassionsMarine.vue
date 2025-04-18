@@ -80,7 +80,7 @@
 
 .passion-item {
   padding: 1.5rem;
-  border: 1px solid #323232;
+  border: 1px solid #38393b;
   border-radius: 8px;
   transition: border-color 0.3s;
   background-color: rgba(31, 31, 31, 0.5);
@@ -98,11 +98,11 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: white;
+  color: #ffffff;
 }
 
 .passion-desc {
-  color: #a0a0a0;
+  color: #d1d5db;
   line-height: 1.5;
 }
 
