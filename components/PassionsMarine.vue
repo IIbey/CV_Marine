@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-[#111827] pb-16">
+  <div class="relative pb-16">
     <div class="w-full flex justify-center items-center">
       <h2 class="text-3xl font-bold m-4 text-white mb-16 mt-16 text-center">
         VOYAGE AU CŒUR DE MES 
