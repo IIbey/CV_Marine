@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-gradient-to-b from-[#131b2f] to-[#0b111e] pb-16">
+  <div class="relative pb-16">
     <!-- Fond étoilé -->
     <div class="absolute inset-0 overflow-hidden z-0 pointer-events-none opacity-50">
       <div class="stars-container absolute inset-0">
