@@ -160,7 +160,7 @@
 /* Améliorations de design */
 .timeline-card {
   background-color: #1A1A1A;
-  border-color: #FF7387;
+  border-color: #575757;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -182,6 +182,6 @@
 }
 
 .timeline-card .text-xs {
-  color: #9ca3af;
+  color: #ffffff;
 }
 </style>
