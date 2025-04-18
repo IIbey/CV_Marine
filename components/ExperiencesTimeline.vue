@@ -47,31 +47,10 @@
               </div>
               
               <div class="flex mt-5 flex-wrap gap-2">
-                <!-- Compétences (icônes) -->
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" fill="#37ABFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path d="M426.333.5H85.667C38.825.5.5 38.825.5 85.667v340.667c0 46.842 38.325 85.167 85.167 85.167h340.667c46.842 0 85.167-38.325 85.167-85.167V85.667C511.5 38.825 473.175.5 426.333.5z"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">Photoshop</span>
-                </div>
-                
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">Figma</span>
-                </div>
-                
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                    <path d="M24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4ZM24 8C32.85 8 40 15.15 40 24C40 32.85 32.85 40 24 40C15.15 40 8 32.85 8 24C8 15.15 15.15 8 24 8Z" fill="#00759D"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">WordPress</span>
-                </div>
+                <!-- Compétences (noms seulement) -->
+                <span class="text-xs text-gray-300">Photoshop</span>
+                <span class="text-xs text-gray-300">Figma</span>
+                <span class="text-xs text-gray-300">WordPress</span>
               </div>
             </div>
           </div>
@@ -99,31 +78,10 @@
               </div>
               
               <div class="flex mt-5 flex-wrap gap-2">
-                <!-- Compétences (icônes) -->
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" fill="#37ABFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                    <path d="M426.333.5H85.667C38.825.5.5 38.825.5 85.667v340.667c0 46.842 38.325 85.167 85.167 85.167h340.667c46.842 0 85.167-38.325 85.167-85.167V85.667C511.5 38.825 473.175.5 426.333.5z"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">Photoshop</span>
-                </div>
-                
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">Figma</span>
-                </div>
-                
-                <div class="skill-pill bg-[#131b2f] px-3 py-1 rounded-full">
-                  <svg class="size-6 inline-block mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                    <path d="M24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4ZM24 8C32.85 8 40 15.15 40 24C40 32.85 32.85 40 24 40C15.15 40 8 32.85 8 24C8 15.15 15.15 8 24 8Z" fill="#00759D"/>
-                  </svg>
-                  <span class="text-xs text-gray-300">WordPress</span>
-                </div>
+                <!-- Compétences (noms seulement) -->
+                <span class="text-xs text-gray-300">Photoshop</span>
+                <span class="text-xs text-gray-300">Figma</span>
+                <span class="text-xs text-gray-300">WordPress</span>
               </div>
             </div>
           </div>
