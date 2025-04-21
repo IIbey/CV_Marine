@@ -76,7 +76,7 @@
                   Développement de sites web sur <span class="text-[#FF7387] font-semibold">WordPress</span> pour un courtier d'assurance.
                         </div>
                     </div>
-
+                        
               <div class="flex mt-5 flex-wrap gap-2">
                 <!-- Compétences (noms seulement) -->
                 <span class="text-xs text-gray-300">Photoshop</span>
@@ -85,7 +85,7 @@
                         </div>
                         </div>
                     </div>
-
+                    
           <!-- Les autres expériences peuvent être ajoutées de la même manière -->
 
         </div>

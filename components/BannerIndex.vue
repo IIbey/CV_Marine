@@ -1,18 +1,26 @@
 <template>
 <div>
-<div class="relative bg-black pt-24 pb-16 font-[sans-serif] h-auto min-h-screen">
+<div class="relative bg-black pt-24 pb-16 font-[sans-serif] h-auto min-h-screen flex items-center justify-center">
       <div class="absolute inset-0">
         <img src="/img/Banner.jpg" alt="Background Image" class="w-full h-full object-cover opacity-50" />
       </div>
 
-      <div class="relative max-w-screen-xl mx-auto px-8 z-10 text-center text-white">
-        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 tracking-wider text-shadow-lg animate-pulse-slow">Marine DEROSE</h1>
-        <p class="text-lg md:text-xl mb-12">Infographiste et Développeuse Web - Réinventons ensemble votre univers digital !</p>
-        <a href="#about" type="button" class="bg-[#FF7387] hover:bg-[#FFAFC3] text-white text-base tracking-wide px-6 py-3 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl">En savoir plus</a>
+      <div class="relative w-full max-w-screen-xl mx-auto px-8 z-10 text-center">
+        <div class="flex flex-col items-center justify-center py-12">
+          <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8 tracking-wider text-shadow-lg animate-pulse-slow text-white">
+            Marine DEROSE
+          </h1>
+          <p class="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-white">
+            Infographiste et Développeuse Web - Réinventons ensemble votre univers digital !
+          </p>
+          <a href="#about" type="button" class="bg-[#FF7387] hover:bg-[#FFAFC3] text-white text-base tracking-wide px-8 py-4 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+            En savoir plus
+          </a>
+        </div>
       </div>
     </div>
 
-<figure class="bg-[#1F1F1F] p-16 rounded-md max-w-screen-md mx-auto text-center mt-12 mb-14 w-full border-solid border-2 border-[#38393b]">
+<figure class="bg-[#1F1F1F] p-16 rounded-md max-w-screen-md mx-auto text-center mt-8 mb-14 w-full border-solid border-2 border-[#38393b]">
     <svg class="w-10 h-10 mx-auto mb-3 text-[#FF7387]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
     </svg>
