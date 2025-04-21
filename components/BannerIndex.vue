@@ -6,7 +6,7 @@
       </div>
 
       <div class="relative max-w-screen-xl mx-auto px-8 z-10 text-center text-white">
-        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">Marine DEROSE</h1>
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6 tracking-wider text-shadow-lg animate-pulse-slow">Marine DEROSE</h1>
         <p class="text-lg md:text-xl mb-12">Infographiste et Développeuse Web - Réinventons ensemble votre univers digital !</p>
         <a href="#about" type="button" class="bg-[#FF7387] hover:bg-[#FFAFC3] text-white text-base tracking-wide px-6 py-3 rounded-full transition duration-300 ease-in-out shadow-lg hover:shadow-xl">En savoir plus</a>
       </div>
@@ -17,7 +17,7 @@
         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
     </svg>
     <blockquote>
-     <p class="text-2xl italic font-medium text-white">"Le développeur crée les outils, l’infographiste leur donne une âme. Ensemble, ils transforment le fonctionnel en exceptionnel."</p>
+     <p class="text-2xl italic font-medium text-white">"Le développeur crée les outils, l'infographiste leur donne une âme. Ensemble, ils transforment le fonctionnel en exceptionnel."</p>
     </blockquote>
     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
         <img class="w-6 h-6 rounded-full" src="../public/img/oleander-icon.svg" alt="profile picture">
@@ -29,3 +29,22 @@
 </figure>
 </div>
 </template>
+
+<style scoped>
+.text-shadow-lg {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 115, 135, 0.4);
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s ease-in-out infinite;
+}
+</style>
