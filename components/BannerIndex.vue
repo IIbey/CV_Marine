@@ -7,8 +7,12 @@
 
       <div class="relative w-full max-w-screen-xl mx-auto px-8 z-10 text-center">
         <div class="flex flex-col items-center justify-center py-12">
-          <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8 tracking-wider text-shadow-lg animate-pulse-slow text-white">
-            Marine DEROSE
+          <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8 tracking-wider text-shadow-lg">
+            <span class="animated-title">
+              <span class="letter" v-for="(letter, index) in 'Marine DEROSE'" :key="index" :style="{ animationDelay: `${index * 0.1}s` }">
+                {{ letter === ' ' ? '\u00A0' : letter }}
+              </span>
+            </span>
           </h1>
           <p class="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-white">
             Infographiste et Développeuse Web - Réinventons ensemble votre univers digital !
@@ -38,9 +42,55 @@
 </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    // On peut ajouter d'autres fonctionnalités d'animation ici si nécessaire
+  }
+}
+</script>
+
 <style scoped>
 .text-shadow-lg {
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 115, 135, 0.4);
+}
+
+.animated-title {
+  display: inline-block;
+  color: white;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s forwards ease-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation pour faire briller certaines lettres après l'apparition */
+.letter:nth-child(1),
+.letter:nth-child(8) {
+  animation: fadeInUp 0.6s forwards ease-out, glow 2.5s infinite alternate 1s;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 115, 135, 0.5);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 115, 135, 0.7);
+  }
 }
 
 @keyframes pulse-slow {
