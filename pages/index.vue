@@ -21,7 +21,7 @@
             </b>
         </h3>
         
-        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+        <div class="flex flex-col lg:flex-row items-center mb-16 gap-8 lg:gap-16">
             <div id="paragraphe-bio" class="w-full lg:w-2/3">
                 <p class="text-[#a0a1a7] text-sm italic mb-6 transform transition-all duration-500 hover:text-white">
                     (っ◕‿◕)っ - Sur les réseaux, je me fais connaître sous le pseudonyme <b class="text-white">Ibey</b>. ⸻
