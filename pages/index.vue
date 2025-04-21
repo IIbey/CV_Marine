@@ -48,14 +48,6 @@
         <img src="../public/img/Photo Marine.jpg" class="h-96 rounded-full drop-shadow-xl brightness-50 transition duration-300 ease-in-out shadow-lg hover:shadow-lg hover:shadow-[#FF7387] hover:brightness-100"  alt="Photo" />
     </div>
     </div>
-
-    <div class="w-full flex justify-center items-center">
-      <h2 class="text-3xl font-bold m-4 text-white mb-16 mt-16 uppercase">Mon arsenal de 
-          <span href="" target="_blank"
-              class="bg-gradient-to-r from-rose-400 via-[#f5b2bc] to-[#FF7387] bg-[length:100%_4px] bg-no-repeat bg-bottom">
-              talents</span> !
-      </h2>
-    </div>
     <CompetencesCard />
     <PassionsMarine />
     <div id="formations">

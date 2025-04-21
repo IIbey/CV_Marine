@@ -6,10 +6,7 @@
           <h2 class="text-3xl md:text-4xl font-bold text-white">
             MON ARSENAL DE 
             <span class="text-[#FF7387] relative">
-              TALENTS
-              <span class="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF7387]"></span>
-            </span>
-            !
+              TALENTS<span class="absolute bottom-0 left-0 w-full h-0.5 bg-[#FF7387]"></span></span> !
           </h2>
         </div>
         
