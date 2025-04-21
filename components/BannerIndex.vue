@@ -1,8 +1,8 @@
 <template>
 <div>
-<div class="relative bg-black py-16 font-[sans-serif] h-80">
+<div class="relative bg-black pt-24 pb-16 font-[sans-serif] h-auto min-h-screen">
       <div class="absolute inset-0">
-        <img src="../public/img/Banner.jpg" alt="Background Image" class="w-full h-full object-cover opacity-50" />
+        <img src="/img/Banner.jpg" alt="Background Image" class="w-full h-full object-cover opacity-50" />
       </div>
 
       <div class="relative max-w-screen-xl mx-auto px-8 z-10 text-center text-white">
@@ -20,7 +20,7 @@
      <p class="text-2xl italic font-medium text-white">"Le développeur crée les outils, l'infographiste leur donne une âme. Ensemble, ils transforment le fonctionnel en exceptionnel."</p>
     </blockquote>
     <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-        <img class="w-6 h-6 rounded-full" src="../public/img/oleander-icon.svg" alt="profile picture">
+        <img class="w-6 h-6 rounded-full" src="/img/oleander-icon.svg" alt="profile picture">
         <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700">
             <cite class="pe-3 font-medium text-[#FF7387]">Marine Derose</cite>
             <cite class="ps-3 text-sm text-gray-500">Développeuse Web & Infographiste</cite>
