@@ -25,73 +25,73 @@
         <div class="space-y-12 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-[#FF7387] before:to-transparent">
 
           <!-- Expérience #1 -->
-          <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
             <!-- Icône -->
             <div class="flex items-center justify-center w-10 h-10 rounded-full border border-[#38393b] bg-[#1F1F1F] group-[.is-active]:bg-[#FF7387] text-[#8a8a8a] group-[.is-active]:text-white shadow-lg shadow-[#ff73875e] shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
-                <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
-              </svg>
-            </div>
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
             
             <!-- Carte -->
             <div class="timeline-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1F1F1F] bg-opacity-80 backdrop-blur-sm p-6 rounded-lg border-solid border border-[#38393b] shadow-xl transition duration-300 ease-in-out hover:border-[#FF7387] hover:shadow-[#ff73875e]">
-              <div>
+                            <div>
                 <div class="flex items-center justify-between space-x-2 mb-3">
                   <div class="font-bold text-white tracking-wide uppercase text-lg">CLEM PREVENTION</div>
                   <span class="px-3 py-1 text-xs font-medium bg-[#FF7387] text-white rounded-full">Stage</span>
-                </div>
+                            </div>
                 <p class="text-[#FF7387] text-sm font-medium mb-3">Développeuse</p>
                 <div class="text-gray-300 text-sm leading-relaxed">
                   Développement de sites web sur <span class="text-[#FF7387] font-semibold">WordPress</span> pour un fabricant de matériel médical.
-                </div>
-              </div>
-              
+                        </div>
+                    </div>
+                    
               <div class="flex mt-5 flex-wrap gap-2">
                 <!-- Compétences (noms seulement) -->
                 <span class="text-xs text-gray-300">Photoshop</span>
                 <span class="text-xs text-gray-300">Figma</span>
                 <span class="text-xs text-gray-300">WordPress</span>
-              </div>
-            </div>
-          </div>
-          
+                        </div>
+                        </div>
+                    </div>
+                    
           <!-- Expérience #2 -->
-          <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                    <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
             <!-- Icône -->
             <div class="flex items-center justify-center w-10 h-10 rounded-full border border-[#38393b] bg-[#1F1F1F] group-[.is-active]:bg-[#FF7387] text-[#8a8a8a] group-[.is-active]:text-white shadow-lg shadow-[#ff73875e] shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
-              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
-                <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
-              </svg>
-            </div>
-            
+                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                            </svg>
+                    </div>
+                    
             <!-- Carte -->
             <div class="timeline-card w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-[#1F1F1F] bg-opacity-80 backdrop-blur-sm p-6 rounded-lg border-solid border border-[#38393b] shadow-xl transition duration-300 ease-in-out hover:border-[#FF7387] hover:shadow-[#ff73875e]">
-              <div>
+                            <div>
                 <div class="flex items-center justify-between space-x-2 mb-3">
                   <div class="font-bold text-white tracking-wide uppercase text-lg">CAP ARCO</div>
                   <span class="px-3 py-1 text-xs font-medium bg-[#FF7387] text-white rounded-full">Stage</span>
-                </div>
+                            </div>
                 <p class="text-[#FF7387] text-sm font-medium mb-3">Développeuse</p>
                 <div class="text-gray-300 text-sm leading-relaxed">
                   Développement de sites web sur <span class="text-[#FF7387] font-semibold">WordPress</span> pour un courtier d'assurance.
-                </div>
-              </div>
-              
+                        </div>
+                    </div>
+
               <div class="flex mt-5 flex-wrap gap-2">
                 <!-- Compétences (noms seulement) -->
                 <span class="text-xs text-gray-300">Photoshop</span>
                 <span class="text-xs text-gray-300">Figma</span>
                 <span class="text-xs text-gray-300">WordPress</span>
-              </div>
-            </div>
-          </div>
-          
+                        </div>
+                        </div>
+                    </div>
+
           <!-- Les autres expériences peuvent être ajoutées de la même manière -->
-          
+
         </div>
-      </div>
-    </section>
-  </div>
+    </div>
+</section>
+</div>
 </template>
 
 <style scoped>
