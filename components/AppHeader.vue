@@ -9,7 +9,7 @@
             <span class="absolute inset-0 flex items-center justify-center text-white font-bold text-lg">M</span>
           </div>
           <span class="self-center text-xl font-semibold whitespace-nowrap">
-            <span class="text-[#FF7387] group-hover:text-white transition-colors duration-300">Marine</span><span class="text-white group-hover:text-[#FF7387] transition-colors duration-300">.dev</span>
+            <span class="text-[#FF7387] group-hover:text-white transition-colors duration-300">Marine</span><span class="text-white group-hover:text-[#FF7387] transition-colors duration-300">.Derose</span>
           </span>
         </a>
 
